@@ -50,7 +50,7 @@ end
 describe Bueda::EnrichedTag, "#input" do
 end
 
-describe Bueda::EnrichedTag, "#split_input" do
+describe Bueda::EnrichedTag, "#split" do
 end
 
 describe Bueda::EnrichedTag, "#canonical" do
