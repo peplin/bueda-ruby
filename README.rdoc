@@ -14,3 +14,8 @@ This library requires an API key from http://bueda.com.
 * HTTParty 0.5.2+ (tested with 0.5.2)
 
 == Usage Examples
+
+require 'bueda'
+c = Bueda::Client.new("JGQYtV6tbFHGOL6BSwYcZyHMO9MMZUC9Ev1Ihg")
+tags = ["porsche", "car", "sports", "awesome"]
+pp c.enriched(tags)
