@@ -44,8 +44,8 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "httparty #{version}"
+  rdoc.title = "bueda-ruby #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
-  rdoc.rdoc_files.include('lib/httparty.rb')
+  rdoc.rdoc_files.include('lib/bueda.rb')
 end
